@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+.form-box {
+    background:#006748;
+    padding: 30px;
+    width: 350px;
+    display: none;
+      border-radius: 10px;
+}
+
+.form-box.active {
+    display: block;
+}
+
+input, select, button {
+    width: 87%;
+    margin: 5px 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input:active {
+ transform: scale(0.98);
+}
+button {
+    background: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.3s;
+    border-radius: 30px;
+    cursor: pointer;   
+    padding: 10px 20px;   
+    width:350px;
+    
+}
+ button:hover {
+    background-color: white;
+    transform: scale(1.1);
+  }
+ button:active {
+    transorm: scale(0.98)
+ }
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+.h2{
+    color:white;
+}
